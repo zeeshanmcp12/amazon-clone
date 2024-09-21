@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url('amazon-2-logo.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.nav-address {
+    padding: 10px;
+    margin: 5px;
+}
+
+.address-first {
+    font-size: 0.85rem;
+    margin-left: 16px;
+    color: #CCCCCC;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-bar {
+    border-radius: 4px;
+    height: 40px;
+    width: 65%;
+    background-color: #FFFFFF;
+    color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-search-bar:hover {
+    border: 2px solid #F3A847;
+}
+
+.select-text {
+    width: 50px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    color: #0F1111;
+    font-size: 0.87rem;
+    text-align: center;
+    height: 100%;
+}
+
+.input-field {
+    height: 80%;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.search-btn {
+    width: 45px;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #F3A847;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+/* Box 4 - Navigation Location */
+.nav-location {
+    height: 50px;
+    width: 73.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-location-flag {
+    height: 17px;
+    width: 23px;
+}
+
+.nav-location-select-text {
+    font-size: 1rem;
+    border: 2px solid black;
+}
+
+.nav-sign-in {
+    display: flex;
+    flex-direction: column;
+}
+.nav-sign-in-hello {
+    font-size: 0.75rem;
+}
+
+.nav-sign-in-account {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+/* Last Box in Navbar */
+
+.nav-cart img {
+    height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cart {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+/* Second Panel after nav bar */
+
+.panel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232F3E;
+    height: 39px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.panel-options a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    height: 28px;
+    align-content: center;
+}
+
+.panel-options {
+    border: none;
+    width: 85%;
+}
+
+.panel-gaming-store {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* body background */
+
+.body-items {
+    display: flex;
+    justify-content: center;
+}
+
+/* .body-image {
+    width: 100%;
+} */
+
+.items-flex-container {
+    width: 1450px;
+    position: absolute;
+    top: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.items-flex-container-containers {
+    width: 320px;
+    height: 420px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    font-size: 1.33rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+
+.items-flex-container-containers a {
+    text-decoration: none;
+    color: #68ABB7;
+    font-size: 0.87rem;
+}
+
+.items-flex-container-containers a:hover {
+    color: #F3A847;
+}
+
+.items-flex-container-containers div {
+    background-position: center;
+}
+
+.img-container {
+    height: 303px;
+    width: 305px;
+}
+
+.img-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.body-overlay {
+    background-color: #E3E6E6;
+    position: relative;
+    width: 1500px;
+    height: 600px;
+    left: 203px;
+    z-index: -2;
+}
+
+.box1, .box2 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Footer */
+/* Foot Panel 1- Back to Top */
+.foot-panel-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    font-size: 0.9rem;
+    padding: 8px;
+}
+
+.foot-panel-1:hover{
+    cursor: pointer;
+    background-color: #485769;
+}
+
+/* Foot Panel 2 - Site Links */
+.foot-panel-2 {
+    height: 400px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+ul p {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    line-height: 2rem;
+}
+
+/* Foot Panel 3 - Amazon Logo */
+.foot-panel-3{
+    height: 90px;
+    background-color: #232F3E;
+    border-top: 0.5px solid #3A4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel-3-logo {
+    height: 100px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Foot Panel 4 - Customer Rights Copyright */
+.foot-panel-4 {
+    background-color: #131A22;
+    color: white;
+    height: 100px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.foot-panel-4-options {
+    padding-top: 25px;
+}
+
+.foot-panel-4-options a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 0.95rem; */
+    padding-right: 0.7rem;
+}
+
+.foot-panel-4-options a:hover {
+    text-decoration: underline;
+}
+
+/* Foot Panel 4 - Copyright */
+.foot-panel-4-copyright {    
+    padding-top: 5px;
+}
